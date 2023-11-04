@@ -37,8 +37,8 @@ def submit():
 
 st.text_input(label='', value='', placeholder='Add a todo item...', key='widget', on_change=submit)
 
-st.write(f'Last submission: {st.session_state.new_todo}')
+# st.write(f'Last submission: {st.session_state.new_todo}')
 
 print('hello')
-st.session_state
+# st.session_state
 
